@@ -168,8 +168,8 @@ http://localhost:5000
 | `DATA_RAW_PATH` | Path ke CSV | Lokasi dataset mentah |
 | `LLM_MODEL` | `llama3:latest` | Nama model Ollama (sesuaikan dengan `ollama list`) |
 | `EMBEDDING_MODEL` | `paraphrase-multilingual-MiniLM-L12-v2` | Model embedding, support Bahasa Indonesia |
-| `TOP_K_RESULTS` | `10` | Jumlah dokumen yang diambil saat retrieval |
-| `MAX_REVIEWS_PER_CHUNK` | `5` | Jumlah review per chunk per produk |
+| `TOP_K_RESULTS` | `5` | Jumlah dokumen yang diambil saat retrieval |
+| `MAX_REVIEWS_PER_CHUNK` | `3` | Jumlah review per chunk per produk |
 | `FLASK_PORT` | `5000` | Port Flask server |
 
 ---
